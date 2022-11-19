@@ -1,1 +1,3 @@
-0x11.C-printf
+# C - printf
+
+Project done during **Full Stack Software Engineering studies** at **ALX**.
