@@ -5,6 +5,7 @@
  * @ar_list: Store the a list of characters
  * Return: num of parameters printed
  */
+
 int print_c(va_list ar_list)
 {
 	int c = va_arg(ar_list, int);
@@ -17,6 +18,7 @@ int print_c(va_list ar_list)
 * @ar_list: Store the a list of characters
 * Return: num of parameters printed
 */
+
 int print_s(va_list ar_list)
 {
 	int i, count = 0;
