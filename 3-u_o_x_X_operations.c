@@ -3,10 +3,11 @@
 int print_u(va_list ar_list)
 {
     int number = va_arg(ar_list, int);
-
-    return(_putchar(abs(number)));
+	if (number < 0)
+		return (-1 * number);
+	else
+		return (number);
 }
-
 
 int print_o(va_list ar_list)
 {
